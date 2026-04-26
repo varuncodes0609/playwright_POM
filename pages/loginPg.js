@@ -6,6 +6,7 @@ class loginPage {
         this.loginButton = page.getByRole('button', { name: ' Login' });
     }
     
+    // Method to navigate to the login page
     async navigate() {
         await this.page.goto('https://the-internet.herokuapp.com/login');
     }
